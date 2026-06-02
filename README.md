@@ -167,21 +167,6 @@ Once Tomcat is running, open your browser and navigate to:
 
 ## 🛠️ Configuration Files
 
-### web.xml
-Configure servlet mappings and URL patterns in `WEB-INF/web.xml`
-
-Example servlet mapping:
-```xml
-<servlet>
-    <servlet-name>SignupServlet</servlet-name>
-    <servlet-class>com.complaints.servlet.SignupServlet</servlet-class>
-</servlet>
-<servlet-mapping>
-    <servlet-name>SignupServlet</servlet-name>
-    <url-pattern>/signup</url-pattern>
-</servlet-mapping>
-```
-
 ### Database Connection Pool
 Optimize connection pooling for better performance
 
